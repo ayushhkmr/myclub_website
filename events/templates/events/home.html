@@ -2,11 +2,12 @@
 
 {%block content%}
 <center>
-    <h1>hello {{name}} ! Evenets for {{year}} {{month}}</h1>
+    <h1>hello {{name}} ! Events for {{year}} {{month}}</h1>
     As of {{ time }}
     <br><br><br>
     {{ cal | safe }}
     <br><br><br>
     copyright (c) {{current_year}}
+    
     </center>
 {%endblock%}
